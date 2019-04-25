@@ -1,1 +1,1 @@
-<?php    session_start();    if(!isset($_SESSION['usuario'])){       header("Location: login.php?msg=2");   }?>
+<?php    session_start();    if(!isset($_SESSION['usuario'])){       header("Location: login.php?msg=2");   }   		header('Location: area_usuario.php');   ?>
